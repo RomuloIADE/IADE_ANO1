@@ -13,3 +13,4 @@ int main() {
     cout << "O valor final após o desconto é de: " << total_com_desconto;
     return 0;
 }
+// Fundamentos da Programacao - Exercicio 07
