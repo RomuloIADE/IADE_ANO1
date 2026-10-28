@@ -1,0 +1,20 @@
+
+# Repositorio do professor (nao publicar)
+/fundProg-Professor/
+
+# Configuracoes do CLion
+.idea/
+*.iml
+
+# Ficheiros de compilacao
+cmake-build-*/
+build/
+
+# Ficheiros temporarios
+*.exe
+*.obj
+*.o
+
+# Pastas do sistema Windows
+/System Volume Information/
+/$RECYCLE.BIN/
