@@ -17,7 +17,7 @@ A segunda pessoa deve pagar 60,00% das despesas: 900.00
 */
 
 int main() {
-
+    cout << " =-=-=-=-=-=-=-=-=-= CÁLCULO DE DESPESAS =-=-=-=-=-=-=-=-=-=-= " << endl <<endl;
     cout << fixed << setprecision(2);
 
     double  salarioPrimeiraPessoa, salarioSegundaPessoa, totalSalarios, valorTotalDespesas,
@@ -25,7 +25,7 @@ int main() {
             valorPagarSegundaPessoa;
 
 
-    cout << "Indique o salário da primeira pessoa: " ;
+    cout << "Indique o salário da primeira pessoa: ";
     cin >> salarioPrimeiraPessoa;
 
     cout << "Indique o salário da segunda pessoa: " ;
@@ -45,7 +45,7 @@ int main() {
     cout << "A primeira pessoa deve pagar "<< percentagemPrimeiraPessoa * 100 << "%" " das despesas: " << valorPagarPrimeiraPessoa << endl;
 
     valorPagarSegundaPessoa = valorTotalDespesas * percentagemSegundaPessoa;
-    cout << "A segunda pessoa deve pagar "<< percentagemSegundaPessoa * 100 << "%" " das despesas: " << valorPagarSegundaPessoa << endl;
-
+    cout << "A segunda pessoa deve pagar "<< percentagemSegundaPessoa * 100 << "%" " das despesas: " << valorPagarSegundaPessoa << endl <<endl;
+    cout << "=-=-=-=-=-= Fim do programa CÁLCULO DE DESPESAS =-=-=-=-=-=" << endl;
     return 0;
 }
