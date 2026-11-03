@@ -25,15 +25,16 @@ int main() {
 
     cout << fixed << setprecision(2);
 
-    double  moedasUmCentimo,
+    int  moedasUmCentimo,
             moedasDoisCentimos,
             moedasCincoCentimos,
             moedasDezCentimos,
             moedasVinteCentimos,
             moedasCinquentaCentimos,
             moedasUmEuro,
-            moedasDoisEuros,
-            totalPoupado;
+            moedasDoisEuros;
+
+    double totalPoupado;
 
     cout << "Moedas de 1 cêntimo: ";
     cin >> moedasUmCentimo;
