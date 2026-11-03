@@ -7,7 +7,7 @@ int main() {
 
     // bool
     // operadores relacionais < <= > >= != ==
-
+/*
     bool ligado = true;
 
     if (ligado) {
@@ -29,9 +29,33 @@ int main() {
     else {
         cout << "Número maior que 10!" << endl;
     }
-
+*/
     // Operadores lógicos E OU
 
+    bool credito, dinheiro;
+    int idade = 18;
+    // if (credito || dinheiro) "or" ou "||"
+    credito = true;
+    dinheiro = true;
+    if ((credito or dinheiro) and (idade >=18)) {
+        cout << "Compra autorizada!\n ";
+    }
+    else {
+        cout << "Compra não autorizada! " << endl;
+    }
+
+
+    if (idade >= 18) {
+        if (credito) {
+            cout << "Compra autorizada!\n ";
+        }
+        else if (dinheiro) {
+            cout << "Compra autorizada!\n ";
+        }
+    else {
+        cout << "Compra não autorizada!\n";
+    }
+    }
 /*
     int pin;
 
