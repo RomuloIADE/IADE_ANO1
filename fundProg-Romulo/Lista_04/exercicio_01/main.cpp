@@ -9,6 +9,19 @@ Assim, o programa deve devolver 11% do salário ou 121 euros, consoante o valor 
 */
 
 int main() {
-
+    double desconto;
+    double salario;
+    double descontoFinal;
+    cout << "Qual o valor de salario?" ;
+    cin >> salario;
+    desconto = salario * 0.11;
+    if (desconto <= 121) {
+        descontoFinal = desconto;
+        cout << "O desconto para a segurança social é de: " << descontoFinal << endl;
+   }
+    else {
+        (descontoFinal = 121);
+        cout << "O desconto para a segurança social é de: " << descontoFinal << endl;
+    }
     return 0;
     }

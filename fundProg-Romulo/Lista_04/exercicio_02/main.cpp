@@ -13,6 +13,23 @@ Leia o preço de compra do produto e apresente o respetivo preço de venda.
  */
 
 int main() {
-    
+    double compra;
+    double venda;
+    cout << "Qual é o valor da compra? ";
+    cin >> compra;
+    if (compra < 20) {
+        venda = compra + (compra * 0.45);
+        cout << "O valor da venda é de: " << venda << endl;
+    }
+    else if (compra >= 20 and compra <= 50)
+    {
+        venda = compra + (compra * 0.35);
+        cout << "O valor da venda é de: " << venda << endl;
+    }
+    else
+    {
+        venda = compra + (compra * 0.25);
+        cout << "O valor da venda é de: " << venda << endl;
+    }
     return 0;
 }
